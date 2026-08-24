@@ -1,4 +1,4 @@
-# 8/24 Tomorrow Never Knows
-i want to go into some field of engineering
+# Notebook
 
-i think our robotics club will be the best CTSO for the job
+## 8/24
+taking this many AP classes was a mistake
