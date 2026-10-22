@@ -20,7 +20,13 @@ today I learned that <em>Physical Graffiti</em> has the words "Led Zeppelin" at 
 ## 8/27
 it really ain't anything to get hung about
 
+## 10/21
+maybe i should be using this notebook more
+
+## 10/22
+see 8/24
+
 # Navigation
-[Notebook](notebook.md)
+[About Me](about.md)
 
 [Home](index.md)
