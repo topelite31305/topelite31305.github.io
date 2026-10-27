@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Safety, Law, and Ethics in Computing</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Safety, Law, and Ethics in Computing</h1>
+  <p class="subtitle">Can your phone's map app be used against you? Find out.</p>
+  <nav>
+    <a href="#start">Start</a>
+    <a href="#ethics">Ethics</a>
+    <a href="#law">Law</a>
+    <a href="#quiz">Quiz</a>
+    <a href="#lab">Privacy Lab</a>
+    <a href="#sources">Sources</a>
+    <a href="#peer">Peer Test</a>
+  </nav>
+</header>
+
+<main>
+
+<section id="start">
+  <h2>How to use this site</h2>
+  <p>This site covers two standards:</p>
+  <ul>
+    <li><strong>5.3.4</strong> Discuss the role of ethics in technologies.</li>
+    <li><strong>5.3.5</strong> Discuss laws and regulations that impact the development and use of software.</li>
+  </ul>
+  <p>Work through the sections in order. Each one ends with an activity. Read the feedback carefully, even when you answer correctly, because the explanations contain the reasoning you'll need on tests.</p>
+  <div class="card scenario">
+    <h3>Scenario</h3>
+    <p>You install a free navigation app. It asks for location access "always," and its privacy policy says it may share "usage data" with partners. Before reading on, write down one thing you think the app could learn about you over a month.</p>
+  </div>
+</section>
+
+<section id="ethics">
+  <h2>Part 1: Ethics in Technology (5.3.4)</h2>
+  <p>Ethics asks what <em>should</em> be done, even when nothing forces you to do it. In computing, ethical questions often arise where the law is silent, unclear, or has not caught up with new technology.</p>
+
+  <div class="card">
+    <h3>Key idea: location data is revealing</h3>
+    <p>A single location point looks harmless. A month of location points can reveal where you sleep, where you work, where you worship, which clinic you visit, and who you spend time with. The ethical issue is not whether the app <em>can</em> collect this, but whether the people it collects from would reasonably expect and agree to it.</p>
+  </div>
+
+  <div class="card">
+    <h3>Think about it</h3>
+    <ol>
+      <li>If a company promised to delete your location history after 30 days, would that fully solve the ethical concern? Why or why not?</li>
+      <li>Is it ethical to collect data that users agreed to in a long policy few people read? What would make consent meaningful?</li>
+      <li>Who benefits from location data, and who bears the risk?</li>
+    </ol>
+  </div>
+</section>
+
+<section id="law">
+  <h2>Part 2: Laws and Regulations (5.3.5)</h2>
+  <p>A law is a rule that is enforceable by a government. Ethics is a standard of right and wrong that may or may not be written into law. A practice can be legal but unethical, and an ethical concern may become illegal once a legislature acts on it.</p>
+
+  <div class="card">
+    <h3>Ethics or law?</h3>
+    <p>For each example, decide whether the main issue is primarily <strong>ethical</strong>, <strong>legal</strong>, or <strong>both</strong>. Then read the explanation.</p>
+    <div id="sorter"></div>
+  </div>
+
+  <div class="card">
+    <h3>Three laws that touch location and personal data</h3>
+    <table>
+      <tr><th>Law</th><th>Jurisdiction</th><th>What it does (summary)</th></tr>
+      <tr>
+        <td>General Data Protection Regulation (GDPR), Regulation (EU) 2016/679</td>
+        <td>European Union</td>
+        <td>Treats location data as personal data. Requires a lawful basis (such as consent) before processing it, and gives people rights to access and delete their data.</td>
+      </tr>
+      <tr>
+        <td>California Consumer Privacy Act, as amended by the CPRA (California Civil Code §1798.100 et seq.)</td>
+        <td>California, USA</td>
+        <td>Gives California residents the right to know what personal information is collected and to opt out of its sale or sharing. Precise geolocation is treated as "sensitive personal information."</td>
+      </tr>
+      <tr>
+        <td>Federal Trade Commission Act, Section 5</td>
+        <td>United States (federal)</td>
+        <td>Prohibits unfair or deceptive practices. The FTC has pursued companies whose privacy policies did not match what they actually did with data.</td>
+      </tr>
+    </table>
+    <p class="note">Note: Laws change. Verify current text on the official sites listed in the Sources section before relying on any summary here.</p>
+  </div>
+</section>
+
+<section id="quiz">
+  <h2>Part 3: Check Your Understanding</h2>
+  <p>Answer each question. Feedback appears immediately and explains <em>why</em>.</p>
+  <div id="quiz"></div>
+  <p id="score" class="score"></p>
+</section>
+
+<section id="lab">
+  <h2>Part 4: Privacy Lab (Interactive Code)</h2>
+  <p>Below is a fictional fitness app called <strong>FitTrack</strong>. Choose the permissions you would grant, then check the risk. This is an interactive model, not a real app.</p>
+  <div class="card">
+    <div id="permissions"></div>
+    <button id="checkRisk" class="primary">Check my risk</button>
+    <div id="riskResult" class="result" aria-live="polite"></div>
+  </div>
+  <div class="card">
+    <h3>Reflect</h3>
+    <p>Your score reflects <em>choices</em>, not the app's intentions. What would have to be true for "Always" location access to be justified? Who should decide?</p>
+  </div>
+</section>
+
+<section id="sources">
+  <h2>Sources and Citations</h2>
+  <ol>
+    <li>European Union. <em>Regulation (EU) 2016/679 (General Data Protection Regulation)</em>. EUR-Lex. https://eur-lex.europa.eu/eli/reg/2016/679/oj</li>
+    <li>California Legislative Information. <em>California Civil Code §1798.100 et seq. (CCPA as amended)</em>. https://leginfo.legislature.ca.gov</li>
+    <li>Federal Trade Commission. <em>Section 5 of the FTC Act: Unfair or Deceptive Acts or Practices</em>. https://www.ftc.gov</li>
+    <li>Association for Computing Machinery. <em>ACM Code of Ethics and Professional Conduct</em>. https://www.acm.org/code-of-ethics</li>
+  </ol>
+</section>
+
+<section id="peer">
+  <h2>Peer Testing</h2>
+  <p>Ask a classmate to complete these steps and record what happened:</p>
+  <ol>
+    <li>Open the site on a phone and on a laptop. Did everything display correctly?</li>
+    <li>Finish the quiz without reading. Was the feedback clear enough to learn from?</li>
+    <li>Use the Privacy Lab. Was it obvious what to do?</li>
+    <li>Tell me one thing that was confusing or could be improved.</li>
+  </ol>
+  <div class="card">
+    <h3>My improvement based on feedback</h3>
+    <p>Write the feedback you received, the change you made, and why. Edit this paragraph after testing.</p>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <p>Created for the Safety, Law, and Ethics in Computing assessment.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
