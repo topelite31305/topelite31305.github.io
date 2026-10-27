@@ -29,6 +29,8 @@ see 8/24
 # 10/26
 it's 11:30 PM and Mr. Warburton is making us create a website using AI
 what's the point of anything anymore
+## 10/26, 11:43 PM
+fixed the link to not go to "index.html" 
 
 # Navigation
 [About Me](about.md)
